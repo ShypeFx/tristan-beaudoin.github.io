@@ -1,0 +1,731 @@
+
+@media screen and (min-width:2200px) {
+.topnav{
+    display: flex;
+    margin-right: 0%;
+
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    /*float: left;*/
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Archivo', sans-serif;
+    margin-right: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background: linear-gradient(90deg, rgba(93,166,218,0.5) 0%, rgba(61,34,226,0.5) 100%);
+    color: white;
+    border-radius: 18px;
+    text-decoration: none;
+  }
+
+  .top{
+      width: 80%;
+      height: auto;
+      margin-top: 150px;
+      margin-left: 20%;
+      position: absolute;
+  }
+
+  .box{
+      background-color: grey;
+      width: 900px;
+      height: 500px;
+      border-radius: 35px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 500px;
+  }
+
+  .box > .text{
+      padding: 35px 15px;
+    font-family: 'Lato', sans-serif;
+      color: honeydew;
+      font-size: 35px;
+      text-align: center;
+
+  }
+
+  .pp {
+    width: 35%;
+    height: auto;
+    margin-top: -5%;
+    margin-left: 32.5%;
+    border-radius: 35px;
+  }
+
+}
+
+/*  ******************************************** 1920 *********************************************************************/
+
+
+@media screen and (min-width:1200px) {
+    .topnav{
+        display: inline-flex;
+        margin-left: 65%;
+    
+    }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        /*float: left;*/
+        color: #000000;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Archivo', sans-serif;
+    
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background: linear-gradient(90deg, rgba(93,166,218,0.5) 0%, rgba(61,34,226,0.5) 100%);
+        color: white;
+        border-radius: 18px;
+        text-decoration: none;
+      }
+
+      
+  .box{
+    background-color: grey;
+    width: 60%;
+    height: auto;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.text{
+    padding: 35px 15px;
+  font-family: 'Lato', sans-serif;
+    color: honeydew;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+
+.text2{
+  padding: 35px 15px;
+font-family: 'Lato', sans-serif;
+  color: honeydew;
+  font-size: 35px;
+  text-align: center;
+margin-top: -120px;
+}
+
+.pp {
+  width: 35%;
+  height: auto;
+  margin-top: -5%;
+  margin-left: 32.5%;
+  border-radius: 35px;
+  padding: 20px 10px;
+}
+
+.cv{
+  border-radius: 30px;
+  padding: 25px 25px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 200%;
+  margin-left: 42%;
+  margin-right: auto;
+  margin-top: 3%;
+  
+}
+
+
+
+.box2{
+  background-color: rgb(238, 238, 238);
+  width: 85%;
+  height: 70%;
+  border-radius: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.presentation{
+  padding: 35px 15px 15px;
+  font-size: 75px;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+}
+
+.textpresentation {
+  font-size: 40px;
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+  padding: 15px 20px 15px;
+}
+
+.box3{
+  background-color: rgb(236, 236, 236);
+  width: 85%;
+  height: 50%;
+  border-radius: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+.box4{
+  background-color: rgb(233, 233, 233);
+  width: 80%;
+  height: 38%;
+  border-radius: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.informatic{
+  margin-top: 20%;
+  padding-bottom: 10%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 4em;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  animation: opacity 2s;
+}
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30%;
+  animation-delay: 3s;
+  animation: cssAnimation 0s 2s forwards;
+  visibility: hidden;
+ }
+
+.typing-demo {
+  width: 14.6ch;
+  animation: typing 2.6s steps(22), blink .5s step-end infinite alternate,slow 1.5s ease;
+  animation-delay: 2s;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 4.5em;
+  color: rgb(0, 0, 0);
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@keyframes opacity {
+  0%{
+    opacity: 0%;
+  }100%{
+      opacity: 100%;
+  }
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+
+    
+    }
+
+/******************************************************* IPHONE X *********************************************** */
+    @media screen and (max-device-width:420px) {
+        body{
+         background-color: black;
+        }
+
+        .topnav{
+            display: none;
+            margin-left: 75%;
+        
+        }
+          
+          /* Style the links inside the navigation bar */
+          .topnav a {
+            /*float: left;*/
+            color: #000000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: 'Archivo', sans-serif;
+        
+          }
+          
+          /* Change the color of links on hover */
+          .topnav a:hover {
+            
+            background: linear-gradient(90deg, rgba(93,166,218,0.5) 0%, rgba(61,34,226,0.5) 100%);
+            color: white;
+            border-radius: 18px;
+            text-decoration: none;
+          }
+          .box{
+            /*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+            background: linear-gradient(135deg, #5f03f4 0%, #64b5f6 100%);
+            opacity: 90%;
+            width: 80%;
+            height: auto;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25%;
+          }
+
+          .box:hover{
+            box-shadow: 1px 2px 60px -6px rgba(180, 174, 174, 0.377);
+          }
+          .text{
+            padding: 75px 15px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-size: 75px;
+            text-align: center;
+            color: white;
+        }
+        .text2{
+          padding: 40px 15px;
+          font-family: 'Arimo', sans-serif;
+          font-style: italic;
+          font-size: 35px;
+          text-align: center;
+          color: white;
+          margin-top: -20%;
+      }
+
+
+       .pp {
+          width: 60%;
+          height: auto;
+          margin-top: -10%;
+          margin-left: 20%;
+          border-radius: 30px;
+          padding: 30px 10px;
+        }
+
+          .top{
+              width: 100%;
+              height: auto;
+          }
+
+          .cv{
+            border-radius: 30px;
+            padding: 25px 25px;
+            font-family: 'Archivo', sans-serif;
+            font-size: 250%;
+            margin-left: 30%;
+            margin-top: 10%;
+            
+            
+          }
+          .cv:hover{
+            color: blueviolet;
+            
+          }
+
+          .box2{
+            background: linear-gradient(45deg, rgba(71,105,128,1) 0%, rgba(48,120,199,1) 100%);
+            width: 85%;
+            height: 45%;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -20%;
+          }
+
+          .presentation{
+            padding: 35px 15px 15px;
+            font-size: 75px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: rgb(255, 188, 163);
+          }
+
+          .textpresentation {
+            font-size: 40px;
+            font-family: 'Archivo', sans-serif;
+            text-align: center;
+            padding: 15px 20px 15px;
+            color: cornsilk;
+          }
+
+          .box3{
+            background-color: rgb(122, 172, 169);
+            width: 85%;
+            height: 50%;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+          }
+
+          .compet{
+            padding: 35px 15px 15px;
+            font-size: 75px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+          }
+
+
+
+          .box3 > img{
+            padding: 20px 30px;
+            width: 25%;
+            height: auto;
+          }
+
+          .textcompetence {
+            font-size: 40px;
+            font-family: 'Archivo', sans-serif;
+            text-align: center;
+            padding: 15px 20px 15px;
+          }
+
+          .box4{
+            background-color: rgb(236, 185, 215);
+            width: 80%;
+            height: 38%;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+          }
+
+          .blizz{
+            padding: 20px 30px;
+            width: 40%;
+            height: auto;
+            margin-left: 25%;
+            margin-right: auto;
+          }
+
+          h1{
+            font-size: 50px;
+            font-family: 'Arimo', sans-serif;
+            font-style: normal;
+            text-align: center;
+            margin-left: 10px;
+          }
+
+          .textexp{
+            font-size: 40px;
+            font-family: 'Arimo', sans-serif;
+            font-style: normal;
+            text-align: center;
+            margin-left: 10px;
+          }
+
+          .passions{
+            padding: 35px 15px 15px;
+            font-size: 75px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+          }
+
+          .box5{
+            background-color: rgb(236, 232, 185);
+            width: 80%;
+            height: 38%;
+            border-radius: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+          }
+
+
+
+          .informatic{
+            margin-top: 45%;
+            padding-bottom: 10%;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 4em;
+            font-style: italic;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            animation: opacity 2s;
+          }
+
+          .wrapper {
+            height: 100vh;
+            /*This part is important for centering*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -100%;
+            animation-delay: 3s;
+            animation: cssAnimation 0s 2s forwards;
+            visibility: hidden;
+           }
+          
+          .typing-demo {
+            width: 14.6ch;
+            animation: typing 2.6s steps(22), blink .5s step-end infinite alternate,slow 1.5s ease;
+            animation-delay: 2s;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 4.5em;
+            color: white;
+
+          }
+  
+          @keyframes typing {
+            from {
+              width: 0
+            }
+          }
+              
+          @keyframes blink {
+            50% {
+              border-color: transparent
+            }
+          }
+
+          @keyframes opacity {
+            0%{
+              opacity: 0%;
+            }100%{
+                opacity: 100%;
+            }
+          }
+
+          @keyframes cssAnimation {
+            to   { visibility: visible; }
+          }
+
+
+
+          
+
+
+
+
+
+
+
+          /******************************************************* ANDROID *********************************************** */
+          
+          @media screen and (max-device-width:370px) {
+            body{
+             background-color: black;
+            }
+    
+            .topnav{
+                display: none;
+                margin-left: 75%;
+            
+            }
+              
+              /* Style the links inside the navigation bar */
+              .topnav a {
+                /*float: left;*/
+                color: #000000;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                font-family: 'Archivo', sans-serif;
+            
+              }
+              
+              /* Change the color of links on hover */
+              .topnav a:hover {
+                
+                background: linear-gradient(90deg, rgba(93,166,218,0.5) 0%, rgba(61,34,226,0.5) 100%);
+                color: white;
+                border-radius: 18px;
+                text-decoration: none;
+              }
+              .box{
+                /*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+                background: linear-gradient(135deg, #5f03f4 0%, #64b5f6 100%);
+                width: 80%;
+                height: auto;
+                border-radius: 35px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15%;
+                box-shadow: 1px 2px 60px -6px rgba(104, 104, 104, 0.33);
+              }
+    
+              .box:hover{
+                box-shadow: 1px 2px 60px -6px rgba(180, 174, 174, 0.377);
+              }
+              .text{
+                padding: 70px 15px;
+                font-family: 'Arimo', sans-serif;
+                font-style: normal;
+                font-size: 75px;
+                text-align: center;
+                color: white;
+            }
+            .text2{
+              padding: 40px 15px;
+              font-family: 'Arimo', sans-serif;
+              font-style: italic;
+              font-size: 35px;
+              text-align: center;
+              color: white;
+              margin-top: -20%;
+          }
+    
+    
+           .pp {
+              width: 60%;
+              height: auto;
+              margin-top: -10%;
+              margin-left: 20%;
+              border-radius: 30px;
+              padding: 40px 10px;
+            }
+    
+              .top{
+                  width: 100%;
+                  height: auto;
+              }
+    
+              .cv{
+                border-radius: 30px;
+                padding: 25px 25px;
+                font-family: 'Archivo', sans-serif;
+                font-size: 250%;
+                margin-left: 30%;
+                margin-top: 10%;
+                
+              }
+    
+              .box2{
+                background-color: rgb(238, 238, 238);
+                width: 80%;
+                height: 45%;
+                border-radius: 35px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -20%;
+              }
+
+
+              .presentation{
+                font-size: 60px;
+                font-family: 'Arimo', sans-serif;
+                text-align: center;
+              }
+
+
+              .box3{
+                background-color: rgb(122, 172, 169);
+                width: 80%;
+                height: 50%;
+                border-radius: 35px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+              }
+
+              .box3 > img{
+                padding: 20px 30px;
+                width: 25%;
+                height: auto;
+              }
+              .box4{
+                background-color: rgb(236, 185, 215);
+                width: 80%;
+                height: 38%;
+                border-radius: 35px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+              }
+    
+              .informatic{
+                margin-top: 45%;
+                padding-bottom: 10%;
+                font-family: 'Work Sans', sans-serif;
+                font-size: 4em;
+                font-style: italic;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                animation: opacity 2s;
+              }
+    
+              .wrapper {
+                height: 100vh;
+                /*This part is important for centering*/
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -90%;
+                animation-delay: 3s;
+                animation: cssAnimation 0s 2s forwards;
+                visibility: hidden;
+               }
+              
+              .typing-demo {
+                width: 14.6ch;
+                animation: typing 2.6s steps(22), blink .5s step-end infinite alternate,slow 1.5s ease;
+                animation-delay: 2s;
+                white-space: nowrap;
+                overflow: hidden;
+                border-right: 3px solid;
+                font-family: 'Work Sans', sans-serif;
+                font-size: 4.5em;
+                color: white;
+    
+              }
+      
+              @keyframes typing {
+                from {
+                  width: 0
+                }
+              }
+                  
+              @keyframes blink {
+                50% {
+                  border-color: transparent
+                }
+              }
+    
+              @keyframes opacity {
+                0%{
+                  opacity: 0%;
+                }100%{
+                    opacity: 100%;
+                }
+              }
+    
+              @keyframes cssAnimation {
+                to   { visibility: visible; }
+              }
+
+      }
+    }
